@@ -1,13 +1,13 @@
 # Proton VPN symbolic icons
-This is a fix for the lack of proper symbolic icons for Proton VPN's tray icons. By default, it uses the colorful icons, which does not fit in with the other monochrome UI icons.
+This is a simple fix for the lack of proper symbolic icons for Proton VPN's tray icons. By default, it uses the colorful icons, which does not fit in with the other monochrome UI icons.
 
 The icons here were taken from [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
-### Before
-[image]
-
 ### After
-[image]
+<img width="500" height="281" alt="new" src="https://github.com/user-attachments/assets/58aeea87-8d43-4a7b-ac1a-0c6d5e3fd7ac" />
+
+### Before
+<img width="500" height="281" alt="original" src="https://github.com/user-attachments/assets/0ca2d09d-ce1b-4c39-bc7d-d2417636a723" />
 
 ## Installation
 Recommended:
@@ -23,7 +23,7 @@ Or just copy the `ProtonVPN-symbolic` folder or clone this repo to your icons fo
 
 There are a few ways you could apply it. Note that the changes probably will not reflect immediately. You can just log out and back in if you can't see the changes. (For me, quitting Proton VPN, changing the icon theme, and restarting Proton VPN also works.)
 
-### Your icon theme inherit ProtonVPN-symbolic
+### Your icon theme inherit ProtonVPN-symbolic (Recommended)
 The simplest is to just edit the `index.theme` of the icon theme you are using, adding `ProtonVPN-symbolic` (or whatever the folder name is) to the `Inherits` field (before anything that could override it). For example,
 
 `.../[icon theme]/index.theme`:
