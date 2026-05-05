@@ -3,10 +3,11 @@ This is a simple fix for the lack of proper symbolic icons for Proton VPN's tray
 
 The icons here were taken from [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
-### After
+Screenshots:
+- **After**
 <img width="500" height="281" alt="new" src="https://github.com/user-attachments/assets/58aeea87-8d43-4a7b-ac1a-0c6d5e3fd7ac" />
 
-### Before
+- **Before**
 <img width="500" height="281" alt="original" src="https://github.com/user-attachments/assets/0ca2d09d-ce1b-4c39-bc7d-d2417636a723" />
 
 ## Installation
