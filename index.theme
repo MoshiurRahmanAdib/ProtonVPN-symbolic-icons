@@ -30,8 +30,8 @@ DialogDefault=48
 DialogSizes=16,22,24,32,48,64
 
 # Directory list
-Directories=16x16, 22x22, 24x24
-ScaledDirectories=16x16@2x, 22x22@2x, 24x24@2x
+Directories=16x16,22x22,24x24
+ScaledDirectories=16x16@2x,22x22@2x,24x24@2x
 
 [16x16]
 Context=Status

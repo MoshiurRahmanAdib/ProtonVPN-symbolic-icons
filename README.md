@@ -57,4 +57,4 @@ You can also just copy the icons (including the symlinks) from here to the appro
 ## Notes
 I originally made this for my personal use, and have only tested it on GNOME. I can't confirm if it works on other DEs. Let me know if you find any problems, and feel free to open a PR if you know a fix.
 
-There could be a better way to achive thisThis is a simple fix for the lack of proper symbolic icons for Proton VPN's tray icons. By default, it uses the colorful icons, which does not fit in with the other monochrome UI icons., but I don't know of any. This is just the simplest way I found to patch this annoying inconsistancy 😅
+There could be a better way to achieve this, but I don't know of any. This is just the simplest way I found to patch this annoying inconsistency 😅
