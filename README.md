@@ -1,6 +1,9 @@
 # Proton VPN symbolic icons
 This is a simple fix for the lack of proper symbolic icons for Proton VPN's tray icons. By default, it uses the colorful icons, which does not fit in with the other monochrome UI icons. This solves that, and it can be used together with any icon theme.
 
+> [!IMPORTANT]
+> This only works for the [Flatpak version](https://flathub.org/en/apps/com.protonvpn.www) of Proton VPN
+
 The icons here were taken from [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 Screenshots:
@@ -47,9 +50,7 @@ Alternatively, you can add the name of the icon theme you want to use to the `in
 Inherits=Adwaita
 ...
 ```
-
-> [!IMPORTANT]
-> Again, NO SPACES.
+Again, **NO SPACES**.
 
 ### Copy-paste
 You can also just copy the icons (including the symlinks) from here to the appropriate folders of the icon theme that you are using. You can check which directory is what in both's `index.theme`. 
