@@ -2,7 +2,7 @@
 This is a simple fix for the lack of proper symbolic icons for Proton VPN's tray icons. By default, it uses the colorful icons, which does not fit in with the other monochrome UI icons. This solves that, and it can be used together with any icon theme.
 
 > [!IMPORTANT]
-> This only works for the [Flatpak version](https://flathub.org/en/apps/com.protonvpn.www) of Proton VPN
+> For non-Flatpak users, [see this](#for-non-flatpak-users)
 
 The icons here were taken from [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
@@ -20,6 +20,12 @@ git clone --depth 1 https://github.com/MoshiurRahmanAdib/ProtonVPN-symbolic-icon
 ```
 
 Or just copy the `ProtonVPN-symbolic` folder or clone this repo to your icons folder – `~/.local/share/icons/` for local installation, or `/usr/share/icons/` for system-wide.
+
+### For non-Flatpak users
+Symbolic icons are only supperted in the [Flatpak version](https://flathub.org/en/apps/com.protonvpn.www) of Proton VPN.
+If you do not use the Flatpak, try making [these changes](https://github.com/flathub/com.protonvpn.www/blob/47f57d55cc9897a31ac8d0a6411def15cddfe1c4/patches/proton-vpn-gtk-app/fix-tray-icons.patch) to `/usr/lib/python3.14/site-packages/proton/vpn/app/gtk/widgets/main/tray_icon.py` and `/usr/lib/python3.14/site-packages/proton/vpn/app/gtk/widgets/main/tray_indicator.py`.
+> [!NOTE]
+> **I did not try it yet**; if anyone does, let me know if it works.
 
 ## Usage
 > [!NOTE]
